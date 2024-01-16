@@ -66,7 +66,7 @@ nav li a {
 .banner {
     background: linear-gradient(180deg, rgba(19, 19, 24, 0.8)0%, rgba(19, 19, 24, 0) 100%), url(../Images/Group\ 13\ \(1\)\ \(1\).png);
     background-size: cover;
-    background-attachment: fixed;
+
     background-position: center;
     width: 100;
     height: 500px;
@@ -83,6 +83,7 @@ nav li a {
     font-size: 4rem;
     font-weight: 800;
     color: #FFFF;
+    margin-top: 30px;
 
 }
 
@@ -98,6 +99,193 @@ nav li a {
     border-radius: 8px;
     background-color: #ffffff4c;
 }
+
+/*  main style  */
+main {
+    max-width: 1440px;
+    margin: 100px auto;
+}
+
+/* section-container styles */
+.section-container {
+    display: flex;
+    align-items: center;
+}
+
+.place-titel {
+    font-size: 40px;
+    font-weight: 800;
+    color: #131318;
+}
+
+.place-content {
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+.place-description {
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(19, 19, 24, 0.7);
+}
+
+.place-img {
+    width: 540px;
+    height: 550px;
+}
+
+.destination {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.place-titel-2 {
+    font-size: 40px;
+    font-weight: 800;
+    gap: 24px;
+    color: #131318;
+}
+
+.place-description-2 {
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 48px;
+    color: rgba(19, 19, 24, 0.70);
+}
+
+.row {
+    display: flex;
+    gap: 1.25rem;
+    margin-top: 24px;
+    margin-left: 120px;
+    gap: 24px;
+}
+
+.label {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.place-titel-3 {
+    font-size: 40px;
+    font-weight: 800;
+    color: #131318;
+}
+
+.place-description-3 {
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(19, 19, 24, 0.70);
+}
+
+.card-container {
+    display: flex;
+    gap: 16px;
+    margin-top: 48px;
+    margin-left: 120px;
+}
+
+.card-container-2 {
+    margin-top: 24px;
+    margin-left: 370px;
+}
+
+.card {
+    width: 573px;
+    height: 284px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    border-radius: 16ps;
+    background: rgba(251, 181, 99, 0.05);
+}
+
+.card-2 {
+    width: 573px;
+    height: 284px;
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+}
+
+.img-2 {
+    margin-top: 32px;
+    margin-left: 32px;
+}
+
+.card-titel {
+    font-size: 24px;
+    font-weight: 800;
+    color: #131318;
+    margin-left: 32px;
+}
+
+.card-stats {
+    margin-left: 32px;
+    margin-right: 55px;
+    font-size: 1.25rem;
+    font-weight: 400;
+    color: #5A5A5D;
+}
+
+.form-2 {
+    width: 474px;
+    height: 422px;
+    margin-top: 30px;
+    border-radius: 16px;
+    border: 1px solid #FF5400;
+}
+
+.Newsletter {
+    display: flex;
+    justify-content: space-around;
+}
+
+.Newsletter-pic {
+    margin-top: 30px;
+}
+
+.form-titel {
+    font-size: 24px;
+    font-weight: 800;
+    margin-top: 40px;
+    margin-left: 40px;
+}
+
+.form-description {
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 16px;
+    margin-left: 40px;
+}
+
+.form-input {
+    width: 393px;
+    height: 52px;
+    font-size: 16px;
+    font-weight: 400;
+    margin-left: 40px;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+}
+
+.form-btn {
+    width: 393px;
+    height: 52px;
+    border-radius: 8px;
+    background: #FF5400;
+    margin-left: 40px;
+    font-size: 20px;
+    font-weight: 800;
+    color: #fff;
+}
+
+.box {
+    width: 324px;
+    height: 120px;
+    border-radius: 16px;
+    background: #FF5400;
+    transform: rotate(-19.628deg);
+}
+
 
 
 /* responsive styles */
@@ -130,7 +318,7 @@ nav li a {
 
     .group {
         width: 287px;
-        gap: 16ps;
+        gap: 16px;
         padding: 16px;
         margin-left: 10px;
     }
@@ -139,8 +327,86 @@ nav li a {
     .btn-primary {
         width: 255px;
         height: 52px;
-        margin: auto;
+        margin-top: 16px;
+        gap: 16px;
     }
+
+    .section-container,
+    .place-img {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+
+    .place-titel {
+        font-size: 20px;
+        font-weight: 800;
+
+    }
+
+    .place-content {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+
+    .place-img {
+        width: 335px;
+        height: 342px;
+    }
+
+    .place-titel-2 {
+        font-size: 20px;
+
+    }
+
+    .place-description-2 {
+        font-size: 14px;
+    }
+
+    .row {
+        flex-direction: column;
+        width: 335px;
+        margin-left: 25px;
+    }
+
+    .card-container {
+        flex-direction: column;
+        margin-left: 20px;
+    }
+
+    .card,
+    .card-2 {
+        width: 335px;
+        height: 288px;
+
+    }
+
+    .card-titel {
+        font-size: 20px;
+    }
+
+    .card-stats {
+        font-size: 14px;
+
+    }
+
+    .card-container-2 {
+        margin-left: 20px;
+    }
+
+    .label {
+        font-size: 20px;
+    }
+
+
+    .place-description-3 {
+        font-size: 14px;
+    }
+
+
+
+
 
 
 }
