@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;700;800&display=swap');
+
+
+/* sherd styles */
+
+* {
+    font-family: 'Work Sans', sans-serif;
+}
+
+.btn-primary {
+    border-radius: 8px;
+    color: #fff;
+    font-size: 1.25rem;
+    background: #FF5400;
+    padding: 16px 34px 16px 64px;
+}
+
+.form {
+    border-radius: 8px;
+    width: 174px;
+    height: 52px;
+    font-size: 1.25rem;
+}
+
+
+/* header style */
+
+
+.img-1 {
+    width: 44px;
+    height: 54px;
+    align-items: center;
+}
+
+.item-1 {
+    color: #FF5400;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(255, 144, 14, 0.10);
+    padding: 50px 135px;
+}
+
+.nav-titel {
+    font-size: 36px;
+    font-weight: 800;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav li {
+    list-style: none;
+    margin-right: 40px;
+}
+
+nav li a {
+    text-decoration: none;
+    color: #424247;
+}
+
+.banner {
+    background: linear-gradient(180deg, rgba(19, 19, 24, 0.8)0%, rgba(19, 19, 24, 0) 100%), url(../Images/Group\ 13\ \(1\)\ \(1\).png);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    width: 100;
+    height: 500px;
+    border-radius: 16px;
+}
+
+.banner-cotent {
+    max-width: 800px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.banner-titel {
+    font-size: 4rem;
+    font-weight: 800;
+    color: #FFFF;
+
+}
+
+.banner-description {
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+}
+
+.group {
+    gap: 24px;
+    padding: 16px;
+    border-radius: 8px;
+    background-color: #ffffff4c;
+}
+
+
+/* responsive styles */
+
+@media screen and (max-width: 676px) {
+    nav {
+        padding: 20px;
+        flex-direction: column;
+    }
+
+    nav ul {
+        display: none;
+
+    }
+
+    .banner {
+        width: 335px;
+        height: 483px;
+        margin-left: 20px;
+    }
+
+    .banner-titel {
+        font-size: 20px;
+
+    }
+
+    .banner-description {
+        font-size: 14px;
+    }
+
+    .group {
+        width: 287px;
+        gap: 16ps;
+        padding: 16px;
+        margin-left: 10px;
+    }
+
+    .form,
+    .btn-primary {
+        width: 255px;
+        height: 52px;
+        margin: auto;
+    }
+
+
+}
