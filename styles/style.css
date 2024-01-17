@@ -29,7 +29,7 @@
 .img-1 {
     width: 44px;
     height: 54px;
-    align-items: center;
+    margin-top: 10px;
 }
 
 .item-1 {
@@ -44,9 +44,20 @@ nav {
     padding: 50px 135px;
 }
 
+
+
+
 .nav-titel {
     font-size: 36px;
     font-weight: 800;
+    position: relative;
+    top: 35px;
+}
+
+.nav-titel-wrapper img {
+    position: relative;
+    bottom: 60px;
+    right: 50px;
 }
 
 nav ul {
@@ -58,6 +69,10 @@ nav li {
     margin-right: 40px;
 }
 
+.home{
+    color: #FF5400;
+}
+
 nav li a {
     text-decoration: none;
     color: #424247;
@@ -66,16 +81,17 @@ nav li a {
 .banner {
     background: linear-gradient(180deg, rgba(19, 19, 24, 0.8)0%, rgba(19, 19, 24, 0) 100%), url(../Images/Group\ 13\ \(1\)\ \(1\).png);
     background-size: cover;
-
     background-position: center;
     width: 100;
     height: 500px;
     border-radius: 16px;
+    padding: 50px 135px;
+    text-align: center;
 }
 
 .banner-cotent {
     max-width: 800px;
-    text-align: center;
+    /*text-align: center;*/
     margin: 0 auto;
 }
 
@@ -229,7 +245,7 @@ main {
 .form-2 {
     width: 474px;
     height: 422px;
-    margin-top: 30px;
+    margin-top: 50px;
     border-radius: 16px;
     border: 1px solid #FF5400;
 }
@@ -240,7 +256,7 @@ main {
 }
 
 .Newsletter-pic {
-    margin-top: 30px;
+    margin-top: 50px;
 }
 
 .form-titel {
@@ -278,13 +294,82 @@ main {
     color: #fff;
 }
 
-.box {
+.box-1 {
     width: 324px;
     height: 120px;
     border-radius: 16px;
     background: #FF5400;
     transform: rotate(-19.628deg);
+    color: #fff;
+    padding: 10px 10px;
+    text-align: center;
+    position: relative;
+    bottom: 200px;
+    left: 310px;
+
 }
+
+.box-1 h3 {
+    font-size: 32px;
+    font-weight: 800;
+    margin-top: 0;
+
+}
+
+.box-1 p {
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 0;
+}
+
+footer {
+    /* width: 1590px;
+    height: 502px;*/
+    background: rgba(19, 19, 24, 0.05);
+    align-items: center;
+    padding: 50px 135px;
+
+
+}
+
+.footer-column {
+    text-align: center;
+
+}
+
+.footer-titel {
+    font-size: 32px;
+    font-weight: 800;
+}
+
+.footer-titel-wrapper img {
+    width: 40px;
+    height: 46px;
+    position: relative;
+    bottom: 72px;
+    right: 120px;
+
+}
+
+.footer-description {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.footer-column-icon {
+    margin-left: 20px;
+    margin-bottom: 50px;
+}
+
+.footer-end{
+    font-size: 16px;
+    font-weight: 300;
+    color: #131318;
+    margin-top: 50px;
+}
+
+
 
 
 
@@ -305,10 +390,12 @@ main {
         width: 335px;
         height: 483px;
         margin-left: 20px;
+        padding: 0;
     }
 
     .banner-titel {
         font-size: 20px;
+
 
     }
 
@@ -403,6 +490,77 @@ main {
     .place-description-3 {
         font-size: 14px;
     }
+
+    .Newsletter {
+        flex-direction: column;
+    }
+
+    .form-2 {
+        width: 335px;
+        height: 353;
+        margin-left: 20px;
+
+    }
+
+    .form-titel {
+        font-size: 20px;
+    }
+
+    .form-description {
+        font-size: 14px;
+    }
+
+    .form-input,
+    .form-btn {
+        width: 288px;
+        height: 52px;
+        margin-left: 20px;
+    }
+
+    .Newsletter-pic img {
+        width: 335px;
+        height: 300px;
+        margin-left: 20px;
+    }
+
+    .box-1 {
+        width: 214px;
+        height: 79px;
+        position: relative;
+        left: 100px;
+        bottom: 145px;
+    }
+
+    .box-1 p {
+        font-size: 15px;
+    }
+
+    .box-1 h3 {
+        font-size: 21px;
+    }
+
+    .footer-titel{
+        font-size: 21px;
+       
+    }
+
+    footer{
+        padding: 20px;
+    }
+
+    .footer-titel-wrapper img{
+        width: 28px;
+        height: 33px;
+        position: relative;
+        margin-top: 24px;
+        margin-left: 70px;
+    }
+
+    .footer-description{
+        font-size: 14px;
+       /* width: 287px;*/
+    }
+
 
 
 
